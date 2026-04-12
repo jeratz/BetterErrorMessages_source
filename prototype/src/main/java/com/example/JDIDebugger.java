@@ -51,6 +51,10 @@ import com.sun.jdi.VMDisconnectedException;
 import com.sun.jdi.request.StepRequest;
 import com.sun.jdi.event.StepEvent;
 
+// Initial JDI usage was learned through the tutorial: Anshul Bansal, "An Intro to the Java Debug
+// Interface (JDI)", Baeldung, [Online]. Available: https://www.baeldung.com/java-debug-interface
+
+
 
 public class JDIDebugger {
 
@@ -144,9 +148,6 @@ public class JDIDebugger {
     //
     // Performs the first run to get the error. 
     // Allows for Scanner to still be used
-    //
-    // Initial JDI usage was learned through the tutorial: Anshul Bansal, "An Intro to the Java Debug
-    // Interface (JDI)", Baeldung, [Online]. Available: https://www.baeldung.com/java-debug-interface
     //
     public static ExceptionEvent runGetError(VirtualMachine vm, String input){
 
