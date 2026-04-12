@@ -204,7 +204,6 @@ if "java_process" in st.session_state:
                 # print what AI said
                 with st.expander("Observe What Happened"):
                     st.markdown(reply_steps[1])
-                    print(reply_steps[1])
                 with st.expander("Formulate a Question"):
                     st.markdown(reply_steps[2])
                 with st.expander("Formulate a Hypothesis"):
