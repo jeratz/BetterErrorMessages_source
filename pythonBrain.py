@@ -193,7 +193,7 @@ if "java_process" in st.session_state:
 
             with st.spinner("Processing, please wait..."):
                 # call openAI with the stuff
-                model="gpt-5.3",
+                model="gpt-5.2",
                 response = client.responses.create(
                     model="gpt-5.2",
                     instructions=context,
